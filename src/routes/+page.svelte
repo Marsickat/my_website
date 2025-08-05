@@ -140,7 +140,7 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			{#each showProjects as project (project.title)}
 				<div
-					class="bg-white/80 dark:bg-gray-900/80 rounded-2xl shadow-lg p-6 flex flex-col gap-4 transition-all duration-300 fade-in-up"
+					class="bg-white/80 dark:bg-gray-900/80 rounded-2xl shadow-lg p-6 flex flex-col gap-4 transition-all duration-300 fade-in-up h-full"
 					in:fly={{ y: 40, duration: 600 }}
 				>
 					<h3 class="text-xl font-bold text-accent mb-2">{project.title}</h3>
@@ -161,6 +161,7 @@
 							</span>
 						{/each}
 					</div>
+					<div class="flex-grow"></div>
 					<a
 						href={project.github}
 						target="_blank"

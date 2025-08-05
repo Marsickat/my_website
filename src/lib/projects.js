@@ -3,113 +3,63 @@
 
 export const projects = [
 	{
-		title: 'Test App',
+		title: 'weather_bot_yandex',
 		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
+			ru: 'Telegram-бот с прогнозом погоды на основе API Яндекса.',
+			en: 'Telegram bot with weather forecast based on Yandex API.',
+			de: 'Telegram-Ein Bot mit einer Wettervorhersage basierend auf der Yandex-API.'
 		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
+		tech: ['Python'],
+		github: 'https://github.com/Marsickat/weather_bot_yandex'
 	},
 	{
-		title: 'Weather CLI',
+		title: 'magazine_aiobot',
 		description: {
-			ru: 'CLI-приложение для получения прогноза погоды.',
-			en: 'CLI app for getting weather forecast.',
-			de: 'CLI-App für Wettervorhersage.'
+			ru: 'Чат-бот магазина в Telegram (незаконченный).',
+			en: "The store's chatbot in Telegram (unfinished).",
+			de: 'Der Chat-Bot des Ladens in Telegram (unvollendet).'
 		},
-		tech: ['Python', 'Requests'],
-		github: 'https://github.com/Marsickat/weather-cli'
+		tech: ['Python'],
+		github: 'https://github.com/Marsickat/magazine_aiobot'
 	},
 	{
-		title: 'Rusty Notes',
+		title: 'my_aio_template_2',
 		description: {
-			ru: 'Минималистичное приложение для заметок на Rust + Tauri.',
-			en: 'Minimal notes app built with Rust and Tauri.',
-			de: 'Minimalistische Notizen-App mit Rust und Tauri.'
+			ru: 'Мой старый шаблон для Telegram-ботов, в планах создание нового.',
+			en: 'My old template for Telegram bots, there are plans to create a new one.',
+			de: 'Meine alte Vorlage für Telegram-Bots, in den Plänen, eine neue zu erstellen.'
 		},
-		tech: ['Rust', 'Tauri', 'HTML', 'CSS'],
-		github: 'https://github.com/Marsickat/rusty-notes'
+		tech: ['Python'],
+		github: 'https://github.com/Marsickat/my_aio_template_2'
 	},
 	{
-		title: 'Web-Chat',
+		title: 'CMIT_bot',
 		description: {
-			ru: 'Простой веб-чат на Rust + Tauri.',
-			en: 'Simple web chat built with Rust and Tauri.',
-			de: 'Einfacher Web-Chat mit Rust und Tauri.'
+			ru: 'По работе делал Telegram-бота для работы с заявками (незаконченный).',
+			en: 'At work, I made a Telegram bot for working with applications (unfinished).',
+			de: 'Bei der Arbeit habe ich einen Telegram-Bot gemacht, um mit Bewerbungen zu arbeiten (unvollendet).'
 		},
-		tech: ['Rust', 'Tauri', 'HTML', 'CSS'],
-		github: 'https://github.com/Marsickat/rusty-notes'
+		tech: ['Python'],
+		github: 'https://github.com/Marsickat/CMIT_bot'
 	},
 	{
-		title: 'Test App 2',
+		title: 'journal-app',
 		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
+			ru: 'По работе делал сервис для работы с поручениями (незаконченный).',
+			en: 'At work, I made a service for working with orders (unfinished).',
+			de: 'Bei der Arbeit habe ich einen Service für die Arbeit mit Aufträgen gemacht (unvollendet).'
 		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
+		tech: ['Svelte', 'TypeScript', 'CSS', 'HTML'],
+		github: 'https://github.com/Marsickat/journal-app'
 	},
 	{
-		title: 'Test App 3',
+		title: 'my_website',
 		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
+			ru: 'Собственно, данный веб-сайт 😊.',
+			en: 'Actually, this website 😊.',
+			de: 'Eigentlich ist diese Website 😊.'
 		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
-	},
-	{
-		title: 'Test App 4',
-		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
-		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
-	},
-	{
-		title: 'Test App 5',
-		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
-		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
-	},
-	{
-		title: 'Test App 6',
-		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
-		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
-	},
-	{
-		title: 'Test App 7',
-		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
-		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
-	},
-	{
-		title: 'Test App 8',
-		description: {
-			ru: 'Тестовое описание.',
-			en: 'Test description.',
-			de: 'Testbeschreibung.'
-		},
-		tech: ['Svelte', 'HTML', 'CSS', 'TypeScript'],
-		github: 'https://github.com/Marsickat'
+		tech: ['Svelte', 'JavaScript', 'CSS', 'HTML'],
+		github: 'https://github.com/Marsickat/my_website'
 	}
 ];

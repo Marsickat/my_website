@@ -27,7 +27,7 @@ pnpm run build
 - `src/routes/+page.svelte` — главная страница
 - `src/lib/projects.js` — массив проектов
 - `src/lib/i18n.js` — локализация
-- `static/avatar.jpg` — аватар
+- `static/avatar.png` — аватар
 
 ## Особенности
 
