@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	font-family: 'Inter', 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-gradient-to-br from-accent via-secondary to-violet min-h-screen transition-colors duration-500;
+	background-size: 200% 200%;
+	animation: bgPulse 10s ease-in-out infinite;
+}
+
+/* Неоновые эффекты для иконок */
+.tech-icon {
+	@apply transition-all duration-300 ease-in-out;
+}
+.tech-icon:hover {
+	@apply scale-110 shadow-neon;
+	box-shadow:
+		0 0 8px 2px #00e5c8,
+		0 0 16px 4px #00e5c880;
+	border-color: #00e5c8;
+}
+
+/* Fade-in-up анимация */
+.fade-in-up {
+	@apply animate-fade-in-up;
+}
